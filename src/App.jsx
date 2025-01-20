@@ -2,10 +2,10 @@ import { useRef, useState } from "react";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const [todo, setTodo] = useState("Hello");
+  const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([
     {
-      todo: "Hellow World",
+      todo: "Hello World",
       isCompleted: false,
       todoId: Date.now(),
     },
